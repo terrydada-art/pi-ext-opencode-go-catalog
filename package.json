@@ -1,0 +1,15 @@
+{
+  "name": "pi-ext-opencode-go-catalog",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Pi extension for OpenCode Go: keeps the pi.dev overlay, shows upstream-renamed models and hides models the subscription no longer serves. 版本號與技能 opencode-go-models 無關。",
+  "dependencies": {
+    "@earendil-works/pi-ai": "^1.1.0"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
